@@ -70,6 +70,7 @@ export default class Post extends Component {
             <span onClick={ () => deletePostFn( id ) }>Delete</span> 
             { /* Remember to destructure deletePostFn off of props or use this.props.deletePostFn */ }
         </div>
+        </div>
 
         {/* This is where all the meta data of the post will go (who, when, where) */}
         <div className="Post__meta-data">
